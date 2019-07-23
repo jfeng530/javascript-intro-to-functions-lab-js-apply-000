@@ -19,10 +19,10 @@ var lowercase = 'hello!'
 
 function sayHiToGrandma(string) {
   switch (string) {
-    case 'hello!':
+    case lowercase:
       return "I can't hear you!";
       break;
-    case 'HELLO!':
+    case uppercase:
       return "YES INDEED!";
       break;
     case "I love you, Grandma.":
